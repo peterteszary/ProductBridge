@@ -1,0 +1,23 @@
+﻿<Page x:Class="ProductBridge.View.WelcomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProductBridge.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="WelcomePage"
+      Background="#dbdbdb">
+
+   
+
+        <Grid VerticalAlignment="Center">
+
+        <StackPanel>
+            <TextBlock TextAlignment="Center" Margin="0,0,0,10" FontSize="14" FontWeight="Bold">Válasszon opciót</TextBlock>
+            <Button Content="Termék hozzáadása" Width="200" Margin="5" Click="AddProduct_Click"/>
+            <Button Content="Termék keresése" Width="200" Margin="5" Click="SearchProduct_Click"/>
+            <Button Content="Kilépés" Width="200" Margin="5" Click="Exit_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

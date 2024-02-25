@@ -1,2 +1,1 @@
-# ProductBridge
-This is a C# Desktop Application for Study purposes
+A webes mappa
